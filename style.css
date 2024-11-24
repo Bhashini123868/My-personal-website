@@ -1,0 +1,123 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background:#390505;
+    color: #efe9e9;
+  }
+  
+  h1, h2 {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+  }
+  
+  p {
+    color: #ccc;
+    line-height: 1.6;
+  }
+  
+ 
+  .hero-section {
+    background: linear-gradient(to bottom right, #460c0c, #530808);
+    padding: 100px 20px;
+  }
+  
+  .profile-img {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #fff;
+    box-shadow: #601111;
+  }
+  
+
+  .about-section {
+    background: #5e0f0f;
+    color: #cbc2c2;
+    margin-bottom: 10px;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+
+  .footer-section {
+    background: #390505;
+    color: #fff;
+  }
+  
+  .footer-section .social-icons {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .footer-section .social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .footer-section .social-icons a {
+    color: #f3dddd;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .footer-section .social-icons a:hover {
+    color: #580707; 
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-section ul.list-group {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.about-section .list-group-item {
+    background: #452222;
+    color: #fff;
+    border: 1px solid #723030;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+.about-section .list-group-item:hover {
+    background: #723030;
+    transform: scale(1.03);
+}
+
+.about-section a {
+    color: #00bcd4;
+    text-decoration:dotted;
+    transition: 0.3s;
+}
+
+.about-section a:hover {
+    color: #d5a660;
+}
+
+.about-section ul ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.about-section ul ul li {
+    color: #cbc2c2;
+    font-size: 1rem;
+}
+
+.about-section .Details {
+    text-align: left;
+    margin-top: 20px;
+}
